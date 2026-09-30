@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Wale Fidel — cybersecurity project portfolio and practical security learning hub.">
+  <title>Wale Fidel | Cybersecurity Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-grid"></div>
+  <div class="noise"></div>
+
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="#top" aria-label="Wale Fidel home">
+        <span class="brand-mark">&gt;_</span>
+        <span>WALE<span class="accent">.</span>SEC</span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#competitions">CTFs</a>
+        <a href="#learning">Learning</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact" class="nav-cta">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero container">
+      <div class="hero-copy">
+        <div class="status-pill"><span class="pulse"></span> BUILDING IN PUBLIC · CYBERSECURITY</div>
+        <p class="eyebrow">CYBERSECURITY / PRACTICAL LEARNING / PROJECTS</p>
+        <h1>Wale <span>Fidel.</span></h1>
+        <h2>Building security skills through <span class="type-target">hands-on projects.</span></h2>
+        <p class="hero-text">
+          A project-first cybersecurity portfolio documenting practical work across Linux,
+          networking, Python, security tooling, vulnerability analysis and hands-on labs.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">Explore Projects <span>↗</span></a>
+          <a class="btn btn-ghost" href="https://github.com/YOUR-GITHUB-USERNAME" target="_blank" rel="noopener">GitHub <span>↗</span></a>
+          <a class="btn btn-ghost" href="https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME/" target="_blank" rel="noopener">LinkedIn <span>↗</span></a>
+        </div>
+        <p class="replace-note">Replace the placeholder GitHub and LinkedIn URLs with your real profiles.</p>
+      </div>
+
+      <div class="terminal-card" aria-label="Terminal-style introduction">
+        <div class="terminal-top">
+          <div class="terminal-dots"><i></i><i></i><i></i></div>
+          <span>wale@security-lab:~</span>
+        </div>
+        <div class="terminal-body">
+          <p><span class="green">┌──(</span><span class="white">wale</span><span class="green">㉿lab</span><span class="green">)-[~]</span></p>
+          <p><span class="green">└─$</span> whoami</p>
+          <p class="output">cybersecurity learner &amp; builder</p>
+          <p><span class="green">└─$</span> cat focus.txt</p>
+          <p class="output">linux · networking · python</p>
+          <p class="output">security tooling · vulnerability analysis</p>
+          <p class="output">practical projects · write-ups</p>
+          <p><span class="green">└─$</span> ./next-project.sh</p>
+          <p class="output cursor-line">building<span class="cursor">█</span></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="quick-stats container" aria-label="Portfolio overview">
+      <div><strong>01</strong><span>Project-first<br>portfolio</span></div>
+      <div><strong>06</strong><span>Core security<br>areas</span></div>
+      <div><strong>∞</strong><span>Learning<br>in progress</span></div>
+      <div><strong>01</strong><span>Public journey<br>repository</span></div>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading">
+        <div><span class="section-number">01</span><span class="eyebrow">ABOUT</span></div>
+        <h2>More than a list of skills.</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-main">
+          <p class="lead">
+            I’m building my cybersecurity foundation by turning concepts into things I can
+            actually test, document and explain.
+          </p>
+          <p>
+            My current direction combines Linux, networking, Python and security tooling with
+            practical security projects. Rather than treating cybersecurity as a collection of
+            certificates, I’m using a public project journey to learn by building, breaking,
+            analysing and documenting.
+          </p>
+          <p>
+            This site is the evidence layer around that journey: what I built, why I built it,
+            what I learned, and where the supporting work can be inspected.
+          </p>
+        </div>
+
+        <aside class="focus-panel">
+          <span class="panel-label">CURRENT FOCUS</span>
+          <ul>
+            <li><span>01</span> Linux &amp; security environments</li>
+            <li><span>02</span> Networking fundamentals</li>
+            <li><span>03</span> Python for security</li>
+            <li><span>04</span> Recon &amp; vulnerability analysis</li>
+            <li><span>05</span> Security tooling</li>
+            <li><span>06</span> Practical write-ups</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="section-heading">
+        <div><span class="section-number">02</span><span class="eyebrow">PROJECTS</span></div>
+        <h2>Work you can inspect.</h2>
+        <p>Projects are the centre of this portfolio. Open a card to see the objective, approach, skills and evidence.</p>
+      </div>
+
+      <div class="project-grid" id="projectGrid"></div>
+    </section>
+
+    <section class="section" id="competitions">
+      <div class="section-inner container">
+        <div class="section-heading">
+          <div><span class="section-number">03</span><span class="eyebrow">CTFs / COMPETITIONS</span></div>
+          <h2>Competition experience.</h2>
+          <p>Reserved for verified CTFs, hackathons and cybersecurity competitions. No results are invented.</p>
+        </div>
+
+        <div class="empty-evidence">
+          <span class="evidence-icon">⌁</span>
+          <div>
+            <h3>Competition records ready to add</h3>
+            <p>Add each event, placement, challenge areas, lessons learned and evidence link in <code>script.js</code>.</p>
+          </div>
+          <span class="tag">PLACEHOLDER</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt-section" id="learning">
+      <div class="section-inner container">
+        <div class="section-heading">
+          <div><span class="section-number">04</span><span class="eyebrow">PRACTICAL LEARNING</span></div>
+          <h2>Labs are practice, not certificates.</h2>
+          <p>Hands-on platforms and rooms are deliberately separated from formal certifications.</p>
+        </div>
+
+        <div class="learning-grid">
+          <article class="learning-card">
+            <div class="card-top"><span class="mini-icon">THM</span><span class="tag">HANDS-ON</span></div>
+            <h3>TryHackMe</h3>
+            <p>Practical rooms and guided security exercises across networking, Linux, reconnaissance, web security and defensive concepts.</p>
+            <div class="metric"><strong>—</strong><span>rooms completed<br><small>ADD VERIFIED COUNT</small></span></div>
+            <a class="text-link" href="https://tryhackme.com/" target="_blank" rel="noopener">Profile / platform ↗</a>
+          </article>
+
+          <article class="learning-card">
+            <div class="card-top"><span class="mini-icon">LAB</span><span class="tag">BUILDING</span></div>
+            <h3>Personal Security Lab</h3>
+            <p>Ubuntu/VirtualBox-based practice environment for Linux, programming, networking and security tooling.</p>
+            <div class="metric"><strong>∞</strong><span>experiments<br><small>ONGOING</small></span></div>
+            <span class="text-link muted">Evidence link to be added</span>
+          </article>
+
+          <article class="learning-card">
+            <div class="card-top"><span class="mini-icon">WR</span><span class="tag">DOCUMENTATION</span></div>
+            <h3>Write-ups</h3>
+            <p>Short technical notes that explain the problem, investigation, commands, findings and lessons without dumping unnecessary code.</p>
+            <div class="metric"><strong>→</strong><span>selected evidence<br><small>ADD LINKS</small></span></div>
+            <span class="text-link muted">Write-up index to be added</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="certifications">
+      <div class="section-heading">
+        <div><span class="section-number">05</span><span class="eyebrow">CERTIFICATIONS</span></div>
+        <h2>Formal learning, kept in context.</h2>
+        <p>Certifications support the practical work; they are not the main story of this site.</p>
+      </div>
+
+      <div class="cert-list">
+        <article class="cert-row">
+          <div class="cert-badge">CERT</div>
+          <div>
+            <h3>Certification to be added</h3>
+            <p>Why completed: <span class="muted">add the reason and relevant security areas.</span></p>
+          </div>
+          <span class="tag">CERTIFICATE LINK</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="section alt-section" id="achievements">
+      <div class="section-inner container">
+        <div class="section-heading">
+          <div><span class="section-number">06</span><span class="eyebrow">ACHIEVEMENTS / COMMUNITY</span></div>
+          <h2>Impact beyond individual projects.</h2>
+        </div>
+
+        <div class="achievement-grid">
+          <article class="achievement-card">
+            <span class="achievement-number">01</span>
+            <h3>Public learning journey</h3>
+            <p>Building a structured cybersecurity repository that turns learning into reusable projects, notes and evidence.</p>
+            <span class="tag">IN PROGRESS</span>
+          </article>
+          <article class="achievement-card placeholder-card">
+            <span class="achievement-number">02</span>
+            <h3>Community achievement</h3>
+            <p>Add verified mentoring, volunteering, talks, awards or community contributions here.</p>
+            <span class="tag">ADD EVIDENCE</span>
+          </article>
+          <article class="achievement-card placeholder-card">
+            <span class="achievement-number">03</span>
+            <h3>Recognition / award</h3>
+            <p>Add a specific accomplishment and its measurable impact, with evidence where possible.</p>
+            <span class="tag">ADD EVIDENCE</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact">
+        <div>
+          <span class="eyebrow">07 / CONTACT</span>
+          <h2>Let’s talk about security.</h2>
+          <p>For opportunities, collaboration or technical conversations, use the links below.</p>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:walefid24@gmail.com"><span>EMAIL</span>walefid24@gmail.com ↗</a>
+          <a href="https://github.com/YOUR-GITHUB-USERNAME" target="_blank" rel="noopener"><span>GITHUB</span>YOUR-GITHUB-USERNAME ↗</a>
+          <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME/" target="_blank" rel="noopener"><span>LINKEDIN</span>YOUR-LINKEDIN-USERNAME ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <span>© <span id="year"></span> Wale Fidel</span>
+    <span>BUILT WITH HTML · CSS · JAVASCRIPT</span>
+    <a href="#top">BACK TO TOP ↑</a>
+  </footer>
+
+  <div class="modal" id="projectModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <article class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="modalClose" aria-label="Close project">×</button>
+      <div id="modalContent"></div>
+    </article>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
